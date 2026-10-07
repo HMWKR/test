@@ -6,4 +6,4 @@ resources:
       tasks:
         - task_key: elt
           notebook_task:
-            notebook_path: ../src/test_elt
+            notebook_path: ../src/test_elt.ipynb
