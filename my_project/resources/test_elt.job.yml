@@ -1,0 +1,9 @@
+resources:
+  jobs: 
+    test_elt_job:
+      name: test-elt-job-${bundle.target}
+
+      tasks:
+        - task_key: elt
+          notebook_task:
+            notebook_path: ../src/test_elt
